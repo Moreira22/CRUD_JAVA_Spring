@@ -54,11 +54,10 @@ Isso iniciará o servidor Spring Boot. Você poderá acessar o aplicativo em [ht
 
 O aplicativo expõe os seguintes endpoints para operações CRUD de produtos:
 
-- `GET /api/produtos`: Retorna todos os produtos.
-- `GET /api/produtos/{id}`: Retorna um produto específico com o ID fornecido.
-- `POST /api/produtos`: Cria um novo produto.
-- `PUT /api/produtos/{id}`: Atualiza um produto existente com o ID fornecido.
-- `DELETE /api/produtos/{id}`: Exclui um produto existente com o ID fornecido.
+- `GET /api/product`: Retorna um produto específico com o ID fornecido.
+- `POST /api/product`: Cria um novo produto.
+- `PUT /api/product`: Atualiza um produto existente com o ID fornecido.
+- `DELETE /api/product/{id}`: Exclui um produto existente com o ID fornecido.
 
 Os dados são retornados no formato JSON.
 
