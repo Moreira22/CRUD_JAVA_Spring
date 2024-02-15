@@ -1,4 +1,4 @@
-# README - Projeto CRUD de Produtos utilizando Spring e MySQL
+# Projeto CRUD de Produtos utilizando Spring e MySQL
 
 Este é um projeto de exemplo que demonstra como criar um aplicativo CRUD (Create, Read, Update, Delete) simples para gerenciar produtos utilizando o framework Spring e o banco de dados MySQL.
 
