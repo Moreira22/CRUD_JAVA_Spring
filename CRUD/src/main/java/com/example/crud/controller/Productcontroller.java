@@ -31,6 +31,7 @@ public class Productcontroller {
           var allProduct = repository.findAllByActiveTrue();
           return ResponseEntity.ok(allProduct);
      }
+
      @PostMapping
      public ResponseEntity registerProduct(@RequestBody @Valid RequestProduct data){
           Product newProduct = new Product(data);
@@ -52,6 +53,7 @@ public class Productcontroller {
                throw new EntityNotFoundException();
           }
      }
+     
      @DeleteMapping("/{id}")
      @Transactional
      public ResponseEntity deleteProduct(@PathVariable String id){
