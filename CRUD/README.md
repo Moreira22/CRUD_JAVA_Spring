@@ -17,7 +17,7 @@ Certifique-se de ter o **Java Development Kit (JDK)** instalado em sua máquina.
 Clone o repositório em sua máquina local:
 
 ```
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/seu-usuario/seu-projeto.git](https://github.com/Moreira22/DESAFIO_JAVA.git
 ```
 
 Certifique-se de ter o Maven instalado. Navegue até o diretório raiz do projeto e execute o seguinte comando para compilar o projeto e baixar as dependências:
